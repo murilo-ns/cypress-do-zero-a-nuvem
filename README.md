@@ -1,10 +1,11 @@
 # Readme para execução dos testes do curso  - Cypress, do Zero à Nuvem 
 - Fonte: https://github.com/wlsf82/cypress-do-zero-a-nuvem
+
 👋 Seja bem-vindo(a)!
 
 O conteúdo desse repositório utiliza como base todos conteúdos abordados no um curso da **Escola Talking About Testing**. e as resoluções de exercícios, bem como exemplos de arquivos .md fornecidos, dando assim os devídos **créditos ao Professor Walmyr**(https://github.com/wlsf82  https://www.linkedin.com/in/walmyr-lima-e-silva-filho).
 
-## Conteúdo abordado no curso?
+## Conteúdo abordado no curso:
 
 - Como configurar um projeto Cypress do zero
 - Como visitar páginas locais e remotas
@@ -37,4 +38,4 @@ Os testes estão configurados, por padrão, para serem executados na resolução
 - Executar todos os testes no modo gráfico "mobile": `npm run cy:open:mobile`
 - Executar todos os testes no modo gráfico "mobile" **headless**: `npm run test:mobile` **(*)**
 
-*** Para o modo headless temos configurada a gravação em vídeo da execução dos testes
+**(*)** Para o modo headless temos configurada a gravação em vídeo da execução dos testes
