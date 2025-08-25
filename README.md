@@ -27,7 +27,7 @@ Você deve ter o Node.js e o npm instalados para executar esse projeto.
 
 ## Instalação:
 
-Após clonar o repositório, na pasta do projeto, execute o comanado `npm install cypress@13.12.0 --save-dev` 
+Após clonar o repositório, na pasta do projeto, execute o comanado `npm install` 
 
 ## Testes:
 Os testes estão configurados, por padrão, para serem executados na resolução de 1280 X 880, mas podemos executá-los na resolução 860 x 410, simulando assim a visualização de uma página web mobile, seja no modo headless como no modo visual. Para mais detalhes consulte a seção `scripts` do arquivo `package.json`
