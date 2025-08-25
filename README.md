@@ -1,10 +1,13 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Readme para execução dos testes do curso  - Cypress, do Zero à Nuvem 
+- Fonte: https://github.com/wlsf82/cypress-do-zero-a-nuvem
+Este é um curso da **Escola Talking About Testing**.
+
+O conteúdo desse repositório utiliza como base todos conteúdos abordados no curso e as resoluções de exercícios, bem como exemplos de arquivos .md fornecidos, dando assim os devídos créditos ao Professor Walmyr(https://github.com/wlsf82  https://www.linkedin.com/in/walmyr-lima-e-silva-filho).
+
 
 👋 Seja bem-vindo(a)!
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
-
-## O que você vai aprender?
+## Conteúdo abordado no curso?
 
 - Como configurar um projeto Cypress do zero
 - Como visitar páginas locais e remotas
@@ -20,9 +23,21 @@
 - Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
 
 ## Vamos começar?
+## Pre-requisitos
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Você deve ter o Node.js e o npm instalados para executar esse projeto.
+> Foi utolizadm utilizadas as versões `v22.18.0` and `10.9.3` do Node.js e npm, respectivamente. è sugerido que se use as mesmas versões ou posteriores.
 
-___
+## Instalação
 
-Este é um curso da **Escola Talking About Testing**.
+Após clonar o repositório, na pasta do projeto, execute o comanado `npm install cypress@13.12.0 --save-dev` 
+
+## Testes
+Os testes estão configurados, por padrão, para serem executados na resolução de 1280 X 880, mas podemos executá-los na resolução 860 x 410, simulando assim a visualização de uma página web mobile, seja no modo headless como no modo visual. Para mais detalhes consulte a seção `scripts` do arquivo `package.json`
+
+- Executar todos os testes no modo gráfico: `npm run cy:open`
+- Executar todos os testes no modo headless: `npm run test` ***
+- Executar todos os testes no modo gráfico "mobile": `npm run cy:open:mobile`
+- Executar todos os testes no modo gráfico "mobile": `npm run test:mobile` ***
+
+*** Para o modo headless temos configurada a gravação em vídeo da execução dos testes
